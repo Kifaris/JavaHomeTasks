@@ -6,4 +6,10 @@ public class Director extends Human {
     public Director (String name, int age) {
         super(name, age);
     }
+    public void start() {
+        System.out.println("Начало занятий");
+    }
+    public void finish() {
+        System.out.println("Окончание занятий");
+    }
 }
